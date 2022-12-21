@@ -287,3 +287,7 @@ if GS_BUCKET_NAME:
     DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
     STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
     GS_DEFAULT_ACL = "publicRead"
+    
+FAQ_PREFIX_QUESTION = env.str("FAQ_PREFIX_QUESTION", default="Ques") 
+FAQ_PREFIX_ANSWER = env.str("FAQ_PREFIX_ANSWER", default="Ans") 
+FAQ_VISUAL_EXPANDED = env.bool("FAQ_VISUAL_EXPANDED", default=False)
