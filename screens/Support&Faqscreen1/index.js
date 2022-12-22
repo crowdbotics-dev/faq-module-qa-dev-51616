@@ -1,13 +1,8 @@
 import React, { Fragment } from "react";
 import { Text, View, TextInput, Image, ScrollView, StyleSheet } from "react-native";
-
 const FAQList = [{
   title: "FAQ Information",
-  data: [
-    "Varius tincidunt.",
-    "Volutpat euismod ut tempus.",
-    "Et nulla quis nullam dui.",
-    "Eget gravida tellus molestie."]
+  data: ["Varius tincidunt.", "Volutpat euismod ut tempus.", "Et nulla quis nullam dui.", "Eget gravida tellus molestie."]
 }, {
   title: "Diam proin at.",
   data: []
@@ -23,8 +18,7 @@ const FAQList = [{
 }];
 
 const SupportFaq = () => {
-  return (
-    <ScrollView>
+  return <ScrollView>
       <View style={styles.container}>
         <View style={styles.topHead}>
           <Text style={styles.mainHeading}>Support & FAQ</Text>
@@ -32,19 +26,16 @@ const SupportFaq = () => {
         <View style={styles.searchArea}>
           <View style={styles.searchInput}>
             <Image style={styles.searchIcon} source={require("./assets/searchIcon.png")} />
-            <TextInput
-              style={styles.searchInput}
-              placeholder="Search here"
-            />
+            <TextInput style={styles.searchInput} placeholder="Search here" />
           </View>
         </View>
 
         <Accordion />
 
       </View>
-    </ScrollView>
-  );
+    </ScrollView>;
 };
+
 const styles = StyleSheet.create({
   topHead: {
     display: "flex",
@@ -84,32 +75,23 @@ const styles = StyleSheet.create({
     alignItems: "center"
   }
 });
-
 export default SupportFaq;
 
 const Accordion = () => {
   return <Fragment>
-    {
-      FAQList.map((FAQ, index) => (
-        <View key={index} style={accordionStyles.faqCard}>
+    {FAQList.map((FAQ, index) => <View key={index} style={accordionStyles.faqCard}>
           <View style={accordionStyles.faqsection}>
             <Text style={accordionStyles.subHeading}>{FAQ.title}</Text>
-            <Image style={accordionStyles.downIcon} resizeMode="contain" source={ require("./assets/chevrondown.png")} />
+            <Image style={accordionStyles.downIcon} resizeMode="contain" source={require("./assets/chevrondown.png")} />
           </View>
-          {
-            FAQ.data.map((item, i) => (
-              <View key={i} style={accordionStyles.accordian}>
+          {FAQ.data.map((item, i) => <View key={i} style={accordionStyles.accordian}>
                 <View style={accordionStyles.accordianlist}>
                   <Image style={accordionStyles.arrowIcon} resizeMode="contain" source={require("./assets/arrow.png")} />
                   <Text style={accordionStyles.smallHeading}>{item}</Text>
                 </View>
-              </View>
-            ))
-          }
+              </View>)}
 
-        </View>
-      ))
-    }
+        </View>)}
   </Fragment>;
 };
 
