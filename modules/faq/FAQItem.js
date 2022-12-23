@@ -48,13 +48,13 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontSize: 16,
     lineHeight: 28,
-    color: colors.ivoryBlack
+    color: colors.blue
   },
   answerText: {
     fontWeight: "400",
     fontSize: 12,
     lineHeight: 20,
-    color: colors.ivoryBlack,
+    color: colors.green,
     marginBottom: 20
   },
   icon: {
