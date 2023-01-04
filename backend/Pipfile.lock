@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "509cdfb5e834b306676ac89e269141f24be3a26e09c78a55efb0bfa482924cf1"
+            "sha256": "863daa55a81f09d61ea84e495cd0885f9794acdd9d2bdee2f933aa87fa9262f3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -55,10 +55,6 @@
             ],
             "markers": "python_version ~= '3.7'",
             "version": "==5.2.0"
-        },
-        "cb-django-2fa": {
-            "editable": true,
-            "path": "./modules/django_2fa"
         },
         "certifi": {
             "hashes": [
@@ -242,14 +238,6 @@
             ],
             "index": "pypi",
             "version": "==2.7.1"
-        },
-        "django-phonenumber-field": {
-            "hashes": [
-                "sha256:897b902a1654b0eb21f6268498a3359e2c4eb90af9585cb8693af186ede8c5bb",
-                "sha256:b1ff950f90a8911ff323ccf77c8f6fe4299a9f671fa61c8734a6994359f07446"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==6.1.0"
         },
         "django-rest-auth": {
             "hashes": [
@@ -600,13 +588,6 @@
             "index": "pypi",
             "version": "==22.0"
         },
-        "phonenumbers": {
-            "hashes": [
-                "sha256:94e30f59b2be6c4310a90f3d5da53d49900bdb440484506f3333c694ebb0cdab",
-                "sha256:e3af21c1e33a3dd063cddba3cad653abb8d23c37c62cedee597a3f3ea0f5365c"
-            ],
-            "version": "==8.12.45"
-        },
         "pillow": {
             "hashes": [
                 "sha256:0030fdbd926fb85844b8b92e2f9449ba89607231d3dd597a21ae72dc7fe26927",
@@ -858,14 +839,6 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
         },
-        "python-http-client": {
-            "hashes": [
-                "sha256:ad371d2bbedc6ea15c26179c6222a78bc9308d272435ddf1d5c84f068f249a36",
-                "sha256:bf841ee45262747e00dec7ee9971dfb8c7d83083f5713596488d67739170cea0"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==3.3.7"
-        },
         "python3-openid": {
             "hashes": [
                 "sha256:33fbf6928f401e0b790151ed2b5290b02545e8775f982485205a066f874aaeaf",
@@ -958,14 +931,6 @@
             "markers": "python_version >= '3.7'",
             "version": "==0.6.0"
         },
-        "sendgrid": {
-            "hashes": [
-                "sha256:ba8d3d39e1f392b9434365d53983b2fc6a458ae0496d2d9e103c15e1743ab66b",
-                "sha256:fa30411c627690fecd0ef6b1d4e1783f2d0272aa14b5fffb133ebd1e31114f16"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
-            "version": "==6.9.7"
-        },
         "setuptools": {
             "hashes": [
                 "sha256:57f6f22bde4e042978bcd50176fdb381d7c21a9efa4041202288d3737a0c6a54",
@@ -998,12 +963,6 @@
             "markers": "python_version >= '3.5'",
             "version": "==0.4.3"
         },
-        "starkbank-ecdsa": {
-            "hashes": [
-                "sha256:9399c3371b899d4a235b68a1ed7919d202fbf024bd2c863ae8ebdad343c2a63a"
-            ],
-            "version": "==2.2.0"
-        },
         "tablib": {
             "extras": [
                 "html",
@@ -1026,14 +985,6 @@
             ],
             "markers": "python_version < '3.11'",
             "version": "==2.0.1"
-        },
-        "twilio": {
-            "hashes": [
-                "sha256:3c02ed1855629e3b567b613c03dfad2aade913f21897d21cd0efe6e48f06ddcf",
-                "sha256:8d6fb07d42235ec60d6256c0f438f6274f601d688e550d25124a0067c4daf75c"
-            ],
-            "markers": "python_full_version >= '3.6.0'",
-            "version": "==7.16.0"
         },
         "uritemplate": {
             "hashes": [
