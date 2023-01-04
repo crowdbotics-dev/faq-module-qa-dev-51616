@@ -62,6 +62,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-appointment](modules/appointment)
 - [react-native-app-menu](modules/app-menu)
 - [react-native-contact-us](modules/contact-us)
+- [react-native-google-analytics](modules/google-analytics)
 
 # Getting started: Frontend
 
